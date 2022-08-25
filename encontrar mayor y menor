@@ -1,3 +1,4 @@
+#include "conio.h"
 #include <iostream>
 #include "stdafx.h"
 using namespace std;
@@ -27,7 +28,17 @@ void main ()
 		mayor=numero4;
 	if (mayor<numero5)
 		mayor=numero5;
+	if (menor<numero1)
+		menor=numero1;
+	if (menor<numero2)
+		menor=numero2; 
+	if (menor<numero3)
+		menor=numero3;
+	if (menor<numero4)
+		menor=numero4;
+	if (menor<numero5)
+		menor=numero5;
 	cout<<"el mayor es "<< mayor<<endl;
 	cout<<"el menor es "<< menor<<endl;
-	getchar();
+	getch();
 }
